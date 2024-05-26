@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: white;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+}
+.title_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+.span {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: blue;
+  font-weight: bold;
+}
+.amount_details_container {
+  display: flex;
+  flex-direction: row;
+}
+.Balance_container {
+  display: flex;
+  flex-direction: row;
+}
+.image_size {
+  height: 30px;
+  width: 30px;
+}
+.amount_container {
+  display: flex;
+  flex-direction: column;
+}
+.user_container {
+  display: flex;
+  flex-direction: row;
+}
+.user_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.history_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.history_heading_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.history_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.history_transaction {
+  list-style-type: none;
+}
+.btn_1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  background-color: Blue;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.input_ele {
+  padding: 10px;
+  border-radius: 20px;
+}
